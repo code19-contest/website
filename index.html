@@ -29,15 +29,6 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- discord server
-    ================================================== -->
-    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-        new Crate({
-            server: '861935984697409546', // Code-19
-            channel: '861936529731747851' // #general
-        })
-    </script>
-
     <!-- Global site tag (gtag.js) - Google Analytics
     ================================================== -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K79ETS4CBG"></script>
@@ -208,9 +199,16 @@
         <div class="row clients-wrap" data-aos="fade-up">
             <div class="center">
                 <ul class="clients">
-                    <li>
-                        <img src="images/sponsors/gfg.png" widht="70%" height="70%" />
-                    </li>
+                    <div>
+                        <a href="https://www.kommunicate.io" target="_blank">
+                            <img src="images/sponsors/kommunicate.png" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.geeksforgeeks.org" target="_blank">
+                            <img src="images/sponsors/gfg.png" />
+                        </a>
+                    </div>
                 </ul>
             </div>
         </div>
@@ -325,5 +323,19 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+    
+    <!-- Kommunicate
+    ================================================== -->
+    <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = 
+                {"appId":"2ee5b8fbdf659798e652aecacadca782a","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    </script>
 
 </body>
