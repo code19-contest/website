@@ -1421,10 +1421,10 @@ body.menu-is-open {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 4.6rem;
-  line-height: 1.5;
+  line-height: 1.0;
   letter-spacing: -0.03rem;
   margin-top: 0;
-  margin-bottom: 4.8rem;
+  margin-bottom: 2.8rem;
 }
 
 .subhead {
@@ -1540,7 +1540,7 @@ body.menu-is-open {
 
 @media only screen and (max-width:1200px) {
   .display-1 {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
   }
 
   .display-1 br {
@@ -1551,22 +1551,22 @@ body.menu-is-open {
 
 @media only screen and (max-width:1100px) {
   .display-1 {
-    font-size: 4.2rem;
+    font-size: 2.2rem;
   }
 
 }
 
 @media only screen and (max-width:1000px) {
   .display-1 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
 }
 
 @media only screen and (max-width:800px) {
   .display-1 {
-    font-size: 3.6rem;
-    margin-bottom: 4.5rem;
+    font-size: 1.6rem;
+    margin-bottom: 2.5rem;
   }
 
   .subhead {
@@ -1581,7 +1581,7 @@ body.menu-is-open {
 
 @media only screen and (max-width:700px) {
   .display-1 {
-    font-size: 3.2rem;
+    font-size: 2.0rem;
   }
 
   .subhead {
@@ -1592,8 +1592,8 @@ body.menu-is-open {
 
 @media only screen and (max-width:600px) {
   .display-1 {
-    font-size: 2.8rem;
-    margin-bottom: 4.2rem;
+    font-size: 1.8rem;
+    margin-bottom: 2.2rem;
   }
 
 }
