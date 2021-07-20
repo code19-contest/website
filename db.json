@@ -4,9 +4,14 @@
             "value": "₹4600"
         }
     ],
-    "contributors" : [
+    "contributors": [
         {
             "name": "Kartik Gaur",
+            "url": "",
+            "contribution": "₹100"
+        },
+        {
+            "name": "Israr Rizvi",
             "url": "",
             "contribution": "₹100"
         }
