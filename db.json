@@ -1,7 +1,18 @@
 {
+    "raised": [
+        {
+            "value": "INR 10,100"
+        }
+    ],
     "contributors" : [
         {
+            "name": "Kommunicate.io",
+            "url": "https://www.kommunicate.io",
+            "contribution": "INR 10,000"
+        },
+        {
             "name": "Kartik Gaur",
+            "url": "",
             "contribution": "INR 100"
         }
     ]
