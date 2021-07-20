@@ -261,8 +261,17 @@
     $.getJSON('https://my-json-server.typicode.com/code19-contest/website/contributors', function (data) {
         // JSON result is in `data` variable
         for (var i = 0; i < data.length; i++) {
-            $(".contributors-list").append($(`<li><h4>${data[i].name}: ${data[i].contribution}</h4></li>`))
+            if(data[i].url.length == 0) {
+                $(".contributors-list").append($(`<li>${data[i].name} : ${data[i].contribution}</li>`))
+            } else {
+                $(".contributors-list").append($(`<li><a href="${data[i].url}" target="_blank">${data[i].name}</a> : ${data[i].contribution}</li>`))
+            }
         }
+    });
+
+    $.getJSON('https://my-json-server.typicode.com/code19-contest/website/raised', function (data) {
+        // JSON result is in `data` variable
+        $(".raised").text(`Currently Raised: ${data[0].value}`);
         $(".contributors").removeClass("hidden");
     });
 

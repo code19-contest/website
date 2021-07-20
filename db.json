@@ -1,8 +1,14 @@
 {
+    "raised": [
+        {
+            "value": "₹ 100"
+        }
+    ],
     "contributors" : [
         {
             "name": "Kartik Gaur",
-            "contribution": "INR 100"
+            "url": "",
+            "contribution": "₹ 100"
         }
     ]
 }
