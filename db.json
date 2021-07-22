@@ -1,7 +1,7 @@
 {
     "raised": [
         {
-            "value": "₹4700"
+            "value": "₹5000"
         }
     ],
     "contributors": [
@@ -12,6 +12,21 @@
         },
         {
             "name": "Israr Rizvi",
+            "url": "",
+            "contribution": "₹100"
+        },
+        {
+            "name": "Sanyam Mittal",
+            "url": "",
+            "contribution": "₹100"
+        },
+        {
+            "name": "Shiven Sinha",
+            "url": "",
+            "contribution": "₹100"
+        },
+        {
+            "name": "Harshvardhan Pandey",
             "url": "",
             "contribution": "₹100"
         }
