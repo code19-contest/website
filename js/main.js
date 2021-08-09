@@ -268,8 +268,8 @@
     $.getJSON('https://my-json-server.typicode.com/code19-contest/website/stats', function (data) {
         // JSON result is in `data` variable
         $(".stats-list").append($(`<li>Total Raised Money : ${data[0].raised}</li>`));
-        $(".stats-list").append($(`<li>Community Members at Discord : ${data[0].community_members}</li>`));
-        $(".stats-list").append($(`<li>Contest Participants : ${data[0].participant_count}</li>`));
+        $(".stats-list").append($(`<li>Community Members at Discord : ${data[0].members}</li>`));
+        $(".stats-list").append($(`<li>Contest Participants : ${data[0].participants}</li>`));
         $(".stats").removeClass("hidden");
     });
 
