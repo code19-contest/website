@@ -347,7 +347,8 @@ mark {
 }
 
 hr {
-  border: solid rgba(255, 255, 255, 0.05);
+  
+  border: 1px dashed white;
   border-width: 1px 0 0;
   clear: both;
   margin: 2.4rem 0 1.5rem;

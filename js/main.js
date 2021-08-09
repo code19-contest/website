@@ -261,15 +261,15 @@
     $.getJSON('https://my-json-server.typicode.com/code19-contest/website/winners', function (data) {
         // JSON result is in `data` variable
         for (var i = 0; i < data.length; i++) {
-            $(".winners-list").append($(`<li>${data[i].name}</li>`))
+            $(".winners-list").append($(`<li><b>${data[i].name}</b></li>`))
         }
     });
 
     $.getJSON('https://my-json-server.typicode.com/code19-contest/website/stats', function (data) {
         // JSON result is in `data` variable
-        $(".stats-list").append($(`<li>Total Raised Money : ${data[0].raised}</li>`));
-        $(".stats-list").append($(`<li>Community Members at Discord : ${data[0].members}</li>`));
-        $(".stats-list").append($(`<li>Contest Participants : ${data[0].participants}</li>`));
+        $(".stats-list").append($(`<li>Total Money Raised : <b>${data[0].raised}</b></li>`));
+        $(".stats-list").append($(`<li>Community Members at Discord : <b>${data[0].members}</b></li>`));
+        $(".stats-list").append($(`<li>Contest Participants : <b>${data[0].participants}<b></li>`));
         $(".stats").removeClass("hidden");
     });
 
