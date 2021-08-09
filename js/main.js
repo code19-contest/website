@@ -258,21 +258,19 @@
     
     /* Update Contributors section
      * ------------------------------------------------------ */
-    $.getJSON('https://my-json-server.typicode.com/code19-contest/website/contributors', function (data) {
+    $.getJSON('https://my-json-server.typicode.com/code19-contest/website/winners', function (data) {
         // JSON result is in `data` variable
         for (var i = 0; i < data.length; i++) {
-            if(data[i].url.length == 0) {
-                $(".contributors-list").append($(`<li>${data[i].name} : ${data[i].contribution}</li>`))
-            } else {
-                $(".contributors-list").append($(`<li><a href="${data[i].url}" target="_blank">${data[i].name}</a> : ${data[i].contribution}</li>`))
-            }
+            $(".winners-list").append($(`<li>${data[i].name}</li>`))
         }
     });
 
-    $.getJSON('https://my-json-server.typicode.com/code19-contest/website/raised', function (data) {
+    $.getJSON('https://my-json-server.typicode.com/code19-contest/website/stats', function (data) {
         // JSON result is in `data` variable
-        $(".raised").text(`Currently Raised: ${data[0].value}`);
-        $(".contributors").removeClass("hidden");
+        $(".stats-list").append($(`<li>Total Raised Money : ${data[0].raised}</li>`));
+        $(".stats-list").append($(`<li>Community Members at Discord : ${data[1].community_members}</li>`));
+        $(".stats-list").append($(`<li>Contest Participants : ${data[2].participant_count}</li>`));
+        $(".stats").removeClass("hidden");
     });
 
 })(jQuery);

@@ -1,34 +1,26 @@
 {
-    "raised": [
+    "stats": [
         {
-            "value": "₹5600"
+            "raised": "₹5700",
+            "community_members": "101",
+            "participant_count": "19"
         }
     ],
-    "contributors": [
+    "winners": [
         {
-            "name": "Kartik Gaur",
-            "url": "",
-            "contribution": "₹100"
+            "name": "Arvin Jakhar"
         },
         {
-            "name": "Israr Rizvi",
-            "url": "",
-            "contribution": "₹100"
+            "name": "Amaan Khan"
         },
         {
-            "name": "Sanyam Mittal",
-            "url": "",
-            "contribution": "₹100"
+            "name": "Rehaan Khan"
         },
         {
-            "name": "Shiven Sinha",
-            "url": "",
-            "contribution": "₹100"
+            "name": "Starchan"
         },
         {
-            "name": "Harshvardhan Pandey",
-            "url": "",
-            "contribution": "₹100"
+            "name": "Harshvardhan Pandey"
         }
     ]
 }
